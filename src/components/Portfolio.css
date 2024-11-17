@@ -1,0 +1,83 @@
+.portfolio-container {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .navbar button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .navbar button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .portfolio-main {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .portfolio-main h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-main p {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+
+  .certificados-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .certificado-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .certificado-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .certificado-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .certificado-item p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+ 

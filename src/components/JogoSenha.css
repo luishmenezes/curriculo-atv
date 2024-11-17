@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .navbar button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .navbar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .game-content {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reveal-button {
+    background-color: #dc3545;
+  }
+  
+  .reveal-button:hover {
+    background-color: #a71d2a;
+  }
+  
+  .attempts-container {
+    text-align: left;
+    margin-top: 2rem;
+  }
+  
+  .attempts-container h2 {
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .attempts-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .attempts-container li {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
